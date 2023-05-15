@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<hmtl lang="ko">
+
+    <head>
+        <title>배송정보</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>배송정보</legend>
+                <ul id="shop">
+                    <li>
+                        <label for="product">주문상품</label>
+                        <input type="text" id="product" value="3KG" readonly>
+                    </li>
+                    <li>
+                        <label for="user_name">이름</label>
+                        <input type="text" id="user_name" placeholder="홍길동" autofocus required>
+                    </li>
+                    <li>
+                        <label for="addr">배송주소</label>
+                        <input type="text" id="addr" required>
+                    </li>
+                    <li>
+                        <label for="email">이메일</label>
+                        <input type="email" id="email">
+                    </li>
+                    <li>
+                        <label for="phnum">전화번호</label>
+                        <input type="tel" id="phnum" placeholder="01012341234" required>
+                    </li>
+                    <li>
+                        <label for="day">배송 날짜</label>
+                        <input type="date" id="day" required><small>(주문일로부터 최소 3일 이후)</small>
+                    </li>
+                </ul>
+
+            </fieldset>
+            <div>
+                <input type="submit" value="주문">
+                <input type="reset" value="취소">
+            </div>
+        </form>
+    </body>
+
+
+
+</hmtl>
