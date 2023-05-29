@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+
+
+div {
+    width: 150px;
+    display: inline-block;
+    padding: 0 30px 30px 18px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25%;
+    line-height: 2;
+    background-color: blanchedalmond;
+}
+
+div h3 {
+    text-align: center;
+    font-weight: bold;
+    color: darkorange;
+}
